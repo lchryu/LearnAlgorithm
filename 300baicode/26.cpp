@@ -1,13 +1,11 @@
-#include <iostream>
-#include <vector>
-#include <string>
-#include <sstream>
+#include <bits/stdc++.h>
 using namespace std;
 int main() {
+    // O(n / 15)
     int n; cin >> n;
     int s = 0;
-    for (int i = 3; i <= n; i++) {
-        if (i % 15 == 0) s += i;
+    for (int i = 15; i <= n; i += 15) {
+        s += i;
     }
     cout << s;
 }
