@@ -7,7 +7,7 @@ int tplt[1001], cnt=1;
 void DFS(int u){
     tplt[u] = cnt;
     for(int v : alist[u]){
-        if(tplt[v]==0) DFS(v);
+        if(!tplt[v]) DFS(v);
     }
 }
 
@@ -22,7 +22,7 @@ int main() {
     }
     
     for(int i=1; i<=n; i++){
-        if(tplt[i]==0) {
+        if(!tplt[i]) {
             DFS(i); // de quy o tplt[i] 
             cnt++;
         }
