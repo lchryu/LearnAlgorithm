@@ -26,6 +26,7 @@ void BFS(int startNode) {
 }
 
 int main() {
+
     int n, m;
     cin >> n >> m;
     
