@@ -3,13 +3,13 @@ using namespace std;
 
 int n, m;
 int visited[1001] = {};
-vector<int> alist[1001];
+vector<int> adj[1001];
 
 int DFS(int i, int leader) {
     visited[i] = 1;
-    if (alist[i].size() > alist[leader].size()) leader = i;
-    else if (alist[i].size() == alist[leader].size() && i < leader) leader = i;
-    for (int j : alist[i]) {
+    if (adj[i].size() > adj[leader].size()) leader = i;
+    else if (adj[i].size() == adj[leader].size() && i < leader) leader = i;
+    for (int j : adj[i]) {
         if (visited[j] == 0) {
             leader = DFS(j, leader);
         }
@@ -22,8 +22,8 @@ int main() {
     while (m--) {
         int x, y;
         cin >> x >> y;
-        alist[x].push_back(y);
-        alist[y].push_back(x);
+        adj[x].push_back(y);
+        adj[y].push_back(x);
     }
 
     vector<int> ans;
