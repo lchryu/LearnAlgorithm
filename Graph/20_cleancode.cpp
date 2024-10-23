@@ -57,7 +57,7 @@ int main() {
             initial_components++;
         }
     }
-
+    
     // Check for bridges by removing each edge
     int bridge_count = 0;
     for (const auto& edge : edges) {
