@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "format": "cpp",
+        "xstring": "cpp",
+        "xiosbase": "cpp",
+        "iostream": "cpp",
+        "ios": "cpp",
+        "tuple": "cpp",
+        "istream": "cpp",
+        "string": "cpp",
+        "initializer_list": "cpp",
+        "utility": "cpp",
+        "vector": "cpp",
+        "xutility": "cpp"
+    }
+}

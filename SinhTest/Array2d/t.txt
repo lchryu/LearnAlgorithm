@@ -1,0 +1,33 @@
+1. Introduction
+Lý Thuyết Số, Tổ Hợp: Start by understanding the basics of number theory and combinatorics.
+2. Arrays and Data Structures
+Mảng 1 chiều cơ bản: Learn about basic one-dimensional arrays.
+Mảng 1 chiều trung bình: Understand more advanced concepts in one-dimensional arrays.
+Vector và pair: Explore vectors and pairs in programming.
+Mảng 2 chiều: Delve into two-dimensional arrays.
+3. Strings
+Xâu ký tự cơ bản: Study basic string operations.
+Xâu ký tự: Gain deeper insights into string manipulation.
+4. Data Structures (Advanced)
+Set map: Learn about sets and maps, and their applications.
+Lower_bound, Upper_bound vs: Understand the use of lower_bound and upper_bound functions in algorithms.
+5. Algorithms
+Đệ quy: Study recursion and its applications.
+Mảng cộng dồn, 2 con trỏ: Learn about cumulative arrays and two-pointer techniques.
+Sắp xếp, tìm kiếm: Focus on sorting and searching algorithms.
+6. Dynamic Programming and Backtracking
+Thuật toán sinh: Explore generation algorithms.
+Làm quen với QHD: Get familiar with dynamic programming (DP).
+Quay Lui: Study backtracking algorithms.
+7. Greedy and Divide & Conquer
+Tham Lam: Learn about greedy algorithms.
+Chia và trị: Understand divide-and-conquer strategies.
+8. Advanced Dynamic Programming
+QHD: Deep dive into more complex dynamic programming problems.
+9. Graph Theory
+Đồ thị: Study graph theory and its applications.
+10. Stacks, Queues, and Trees
+Ngăn xếp: Learn about stack data structures.
+Hàng đợi: Study queue data structures.
+Cây nhị phân: Explore binary trees.
+Segment tree: Understand the segment tree data structure.
